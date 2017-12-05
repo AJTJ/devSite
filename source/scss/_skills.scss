@@ -1,0 +1,59 @@
+.skillsSection {
+   background: #000 url(http://sylvaingarnot.fr/media/stars.png) repeat top center fixed;
+   height: 700px;
+   padding: 100px 0;
+}
+
+.skillList {
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   padding: 50px 0;
+   // margin-top: 100px;
+}
+
+#skills:hover, #skills:active, #skills:focus {
+   outline: none;
+   border: 0;
+}
+
+.skillLi {
+   display: flex;
+   flex-grow: 1;
+}
+
+.skillLink {
+   display: flex;
+   flex-grow: 1;
+   align-content: center;
+   justify-content: center;
+   color: rgb(83, 68, 68);
+   transition: all 0.3s;
+}
+
+.skillLink:hover {
+   color: white;
+}
+
+
+.fa {
+   display: flex;
+   flex-grow: 1;
+   justify-content: center;
+   align-content: center;
+}
+
+.skillDescriptionZone {
+   position: relative;
+   height: 500px;
+}
+
+.hcsDesc, .jsDesc, .wpDesc, .gitDesc {
+   display: none;
+   position: absolute;
+   color: white;
+}
+
+.skillDescFlex {
+   display: flex;
+}

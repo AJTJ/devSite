@@ -1,0 +1,44 @@
+.topNav {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   display: flex;
+   z-index: 1;
+   height: 25px;
+}
+
+.navUl {
+   // width: 500px;
+   margin: 0 auto;
+   padding: 0;
+   display: flex;
+   flex-grow: 1;
+   justify-content: space-around;
+   background: white;
+   border: solid 1px rgba(105, 96, 96, 0.068);
+
+}
+
+.navLi {
+   display: flex;
+   flex-grow: 1;
+   // width: 300px;
+}
+
+.btn:hover { --x: 100%; }
+
+.btn {
+   display: flex;
+   flex-grow: 1;
+   align-items: center;
+   justify-content: center;
+   transition: 1s;
+   @include buttonBackground;
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   @include mainFontColor;
+   border: solid 1px rgba(105, 96, 96, 0.068);
+}

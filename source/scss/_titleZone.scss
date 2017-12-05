@@ -1,0 +1,50 @@
+header {
+   position: relative;
+}
+
+.titleZone {
+   display: flex;
+   justify-content: space-between;
+}
+
+.intro{
+   // height: 700px;
+   padding: 250px 0;
+   margin: 0;
+}
+
+.spaceOpinion {
+   padding: 480px 0 250px;
+}
+
+// TITLE ANIMATION
+.part {
+   position: relative;
+   display: inline-block;
+}
+
+.stripe, .stripeDelay, .fooDelay, .foo {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background: white;
+}
+.foo, .fooDelay {
+   @include mainColor;
+}
+
+.foo2, .stripe2 {
+   background: black;
+}
+
+.titleText {
+   font-size: 50px;
+   @include mainFontColor;
+}
+
+.titleText2 {
+   font-size: 50px;
+   color: white;
+}

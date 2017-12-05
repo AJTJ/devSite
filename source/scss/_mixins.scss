@@ -1,0 +1,19 @@
+@mixin mainColor() {
+   background: rgb(160, 33, 1);
+}
+
+@mixin mainColorOnFont() {
+   color: rgb(160, 33, 1);
+}
+
+@mixin mainFontColor() {
+   color: rgb(105, 96, 96);
+}
+
+@mixin buttonBackground() {
+   background: linear-gradient(90deg, white 30%, rgba(160, 33, 1, 0.164) 35%, white 50%) var(--x, 0)/ 350%;
+}
+
+@mixin border($width, $style) {
+   border: rgb(105, 96, 96);
+}
